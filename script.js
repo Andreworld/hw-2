@@ -21,3 +21,4 @@ z++;
 z--;
 alert(z);
 let age = prompt ("Сколько вам лет?");
+alert (age);
