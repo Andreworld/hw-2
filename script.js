@@ -9,3 +9,6 @@ alert (x*y);
 alert (x%y);
 let result = (2**5);
 alert (result);
+a=9;
+let b=2;
+alert (a%b);
