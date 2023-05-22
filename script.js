@@ -27,3 +27,11 @@ const user = {
     age: 30,
     isAdmin: true,
 }
+user ['city of residence'] = "London";
+user.age = 31;
+delete user["city of residence"];
+let info = prompt("Какую информацию хотите узнать о пользователе?");
+console.log (info);
+alert (user[info]);
+let name = prompt("как ваше имя?");
+alert(`Привет,  ${name} !`);
