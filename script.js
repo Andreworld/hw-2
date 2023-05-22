@@ -1,0 +1,1 @@
+let a = Number (alert(10));
