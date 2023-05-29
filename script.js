@@ -1,4 +1,4 @@
-let a = 20; // Задание 1 //
+let a = 20; // Задание 1 
 alert (a);
 const iPhone = 2007; // Задание 2
 alert (iPhone);
