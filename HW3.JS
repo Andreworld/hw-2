@@ -6,3 +6,8 @@ if (password === paswordRequest) {
 } else {
     alert('Пароль введен неправильно');
 }
+// Задание 2
+let c = prompt ('Введите число');
+if (c>0 && c<10) {console.log ('Верно')
+ } else {console.log ('Не верно')
+ }
