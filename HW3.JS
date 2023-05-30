@@ -11,3 +11,9 @@ let c = prompt ('Введите число');
 if (c>0 && c<10) {console.log ('Верно')
  } else {console.log ('Не верно')
  }
+ // Задание 3
+ let d = prompt('Введите число');
+ let c = prompt('Введите число');
+ if (d>100 || c>100) {console.log ('Верно')
+ } else {console.log ('Не верно')
+ }
