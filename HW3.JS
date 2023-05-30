@@ -17,3 +17,7 @@ if (c>0 && c<10) {console.log ('Верно')
  if (d>100 || c>100) {console.log ('Верно')
  } else {console.log ('Не верно')
  }
+ // Задание 4
+let a = '2';
+let b = '3';
+alert = (Number (a) + Number (b));
