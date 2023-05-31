@@ -25,3 +25,10 @@ const obj = {
 for (let name in obj ) {
 console.log(`${name} - Зарплата ${obj[name]} Долларов`);
 }
+// Задание 5
+let n = 1000;
+let num = 0;
+while (n > 50) {
+    n /= 2;
+    num++;
+}console.log(n);
