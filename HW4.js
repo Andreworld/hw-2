@@ -10,3 +10,9 @@ while (i<= 5) {
 console.log
  (i); i++;
 }
+// Задание 3
+let i = 7;        
+while (i<= 22) {
+console.log
+ (i); i++;
+}
