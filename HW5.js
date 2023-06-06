@@ -81,3 +81,23 @@ function check(a) {
     }
 }
 check(userQuestion);
+
+// Задание 7 //
+
+const circle1 = {
+    radius: 7,
+    getArea() {
+        return (`Площадь круга через радиус равна ${3.14 * circle1.radius ** 2}`)
+    }
+}
+console.log(circle1.getArea());
+
+const circle2 = {
+    radius: 8,
+    getPerimeter() {
+        return (`периметр окружности ${2 * 3.14 * circle2.radius}`)
+    }
+}
+console.log(circle2.getPerimeter());
+
+
