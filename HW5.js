@@ -23,3 +23,20 @@ function evenOrodd(a) {
 }
 evenOrodd(num);
 
+// Задание 3.1 //
+
+let a = prompt('введите число')
+
+const square = (num) => console.log(num ** 2);
+
+square(a);
+
+// Задание 3.2 //
+
+let num = prompt('Введите число')
+
+const square = (a) => {
+    return a;
+}
+console.log(num ** 2);
+
