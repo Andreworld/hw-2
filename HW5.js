@@ -40,3 +40,18 @@ const square = (a) => {
 }
 console.log(num ** 2);
 
+// Задание 4 //
+
+let num = prompt('Введите ваш возраст')
+
+function userAge(a) {
+    if (a < null) {
+        alert('Вы ввели неправильное значение');
+    } else if (a <= 12) {
+        alert('Привет, друг');
+    } else {
+        (a >= 13);
+        alert('Добро пожаловать!');
+    }
+}
+userAge(num);
