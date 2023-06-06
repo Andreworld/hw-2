@@ -69,3 +69,15 @@ function check(a, b) {
 }
 
 check(numberCheckOne, numberCheckTwo);
+
+// Задание 6 //
+
+let userQuestion = prompt('Введите число')
+function check(a) {
+    if (a == Number(a)) {
+        return console.log(`${a} в кубе равняется ${a ** 3}`);
+    } else {
+        return console.log('Переданный параметр не является числом');
+    }
+}
+check(userQuestion);
