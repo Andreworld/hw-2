@@ -21,7 +21,7 @@ if (c>0 && c<10) {console.log ('Верно')
 let a = '2';
 let b = '3';
 alert = (Number (a) + Number (b));
-// Задание 5
+// Задание 5 //
 let monthNumber = Number( prompt('введите номер месяца'));
 switch (monthNumber) {
     case 1:
