@@ -100,4 +100,21 @@ const circle2 = {
 }
 console.log(circle2.getPerimeter());
 
+// Задание 8 //
 
+let userInput = prompt('Введите число')
+
+function seasons(Number) {
+    if (Number == 12 || Number <= 2) {
+        alert('Зима');
+    } else if (Number == 3 || Number <= 5) {
+        alert('Весна');
+    } else if (Number == 6 || Number <= 8) {
+        alert('Лето');
+    } else if (Number == 9 || Number <= 11) {
+        alert('Осень');
+    } else {
+        alert('Вы ввели неверные данные')
+    }
+}
+seasons(userInput);
