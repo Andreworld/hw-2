@@ -62,9 +62,9 @@ let numberCheckOne = prompt('Введите число')
 let numberCheckTwo = prompt('Введите число')
 function check(a, b) {
     if (isNaN(a) || isNaN(b)) {
-        return console.log('Одно или оба значения не являются числом');
+        return ('Одно или оба значения не являются числом');
     } else {
-        return console.log(a * b);
+        return (a * b);
     }
 }
 

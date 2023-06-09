@@ -135,6 +135,11 @@ body {
 .seasons {
   padding-top: 287px;
   background-image: url(image/Rectangle_6.jpg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 65px;
 }
 
 .seasons__heading {
@@ -163,6 +168,7 @@ body {
   color: #FFFFFF;
 }
 
+
 .seasons__button {
   width: 234.06px;
   height: 48.6px;
@@ -181,13 +187,12 @@ justify-content: center;
 color: #FFFFFF;
 }
 
-.seasons__link {
-  
-}
 
 .picture__img {
   width: 100%;
+  width: 485px;
 }
+
 
 @media (max-width: 767px) {
   .center {
