@@ -193,44 +193,4 @@ color: #FFFFFF;
   width: 485px;
 }
 
-
-@media (max-width: 767px) {
-  .center {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .title {
-    width: 343px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  .title-paragraph {
-    width: 343px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .top__form {
-    display: flex;
-    justify-content: center;
-  }
-  .game {
-    justify-content: center;
-  }
-  .game__img {
-    width: 343px;
-  }
-}/*# sourceMappingURL=style.css.map */
+@import 'mobile';
