@@ -124,8 +124,66 @@ body {
 
         }
     }
-
-    
 }
+
+.seasons {
+    padding-top: 287px;
+    background-image: url(image/Rectangle_6.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 65px;
+  }
+  
+  .seasons__heading {
+    width: 377px;
+    height: 59px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  
+  .seasons__text {
+    width: 584px;
+    height: 64px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  
+  
+  .seasons__button {
+    width: 234.06px;
+    height: 48.6px;
+    left: 0px;
+    top: 187px;
+    background: #9C0332;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  }
+  
+  
+  .picture__img {
+    width: 100%;
+    }
 
 @import 'mobile';
