@@ -234,6 +234,7 @@ body {
     color: #FFFFFF;
   }
   .seasons__text {
+    width: 343px;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 300;

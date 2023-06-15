@@ -14,7 +14,7 @@
     text-align: center;
     color: #FFFFFF;
   }
-  .title-paragraph {
+  .title_paragraph {
     width: 343px;
     font-style: normal;
     font-weight: 300;
@@ -37,6 +37,11 @@
   .game__img {
     width: 343px;
   }
+  .seasons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
   .seasons__heading {
     font-family: "Montserrat";
     font-style: normal;
@@ -49,6 +54,7 @@
     color: #FFFFFF;
   }
   .seasons__text {
+    width: 343px;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 300;
@@ -59,18 +65,9 @@
     text-align: center;
     color: #FFFFFF;
   }
-  .seasons {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
   .seasons__block {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .picture__img {
-    width: 100%;
-  }
-}
+}/*# sourceMappingURL=_mobile.css.map */
