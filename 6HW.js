@@ -13,3 +13,13 @@ console.log (numbs);
 
 const numbs = [1, 3, 5, 10, 20];    // задание 3
 console.log(numbs.join(' '));
+
+// задание 4
+let a = [];     
+for ( let index = 0; index < 3; index++) {
+a[index] = [];
+for (let indexOne = 0; indexOne < 3; indexOne++) {
+a[index].push(1);
+  }
+ }
+console.log(a);
