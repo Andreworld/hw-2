@@ -23,3 +23,9 @@ a[index].push(1);
   }
  }
 console.log(a);
+
+// задание 5
+let item = [1, 1, 1];
+undefined
+item.push('2','2','2');
+console.log (item);
