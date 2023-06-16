@@ -26,6 +26,11 @@ console.log(a);
 
 // задание 5
 let item = [1, 1, 1];
-undefined
 item.push('2','2','2');
 console.log (item);
+
+// задание 6
+
+let array = [9, 8, 7, 'a', 6, 5];
+array.sort().pop();
+console.log(array);
