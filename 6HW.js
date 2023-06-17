@@ -34,3 +34,16 @@ console.log (item);
 let array = [9, 8, 7, 'a', 6, 5];
 array.sort().pop();
 console.log(array);
+
+// задание 7
+
+    const check = () => {
+        let numbs = [9, 8, 7, 6, 5]
+        let userInput = Number(prompt('В массиве 5 чисел со значением от 1 до 10. Уагадайте одно из них'))
+        if (numb.includes(userInput)) {
+            alert(`Угадал! Число ${userInput} есть в массиве`);
+        } else {
+            alert('Не угадал');
+        }
+    }
+    check();
