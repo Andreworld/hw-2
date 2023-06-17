@@ -47,3 +47,9 @@ console.log(array);
         }
     }
     check();
+
+    // задание 8
+
+const str = 'abcdef';
+const reverse = str.split('').reverse().join('');
+console.log(reverse);
