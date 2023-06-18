@@ -60,4 +60,15 @@ let item = [[1, 2, 3,],[4, 5, 6]];
 item = item.flat();
 console.log(item);
 
-// pflfybt 10
+// задание 10
+
+const numbs = [1, 2, 3, 4];
+
+for (let i = 0; i < numbs.length; i++) {
+	console.log(numbs[i-1]+(i+1));
+}
+ // задание 11
+
+ const numb = [1, 2, 4, 7];
+ let result=numb.map(item=>item*item);
+ console.log(result);
