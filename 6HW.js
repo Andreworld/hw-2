@@ -56,7 +56,7 @@ console.log(reverse);
 
 // задание 9
 
-let item = [[1, 2, 3,],[4, 5, 6]];
+let item = [[1, 2, 3,], [4, 5, 6]];
 item = item.flat();
 console.log(item);
 
@@ -65,10 +65,22 @@ console.log(item);
 const numbs = [1, 2, 3, 4];
 
 for (let i = 0; i < numbs.length; i++) {
-	console.log(numbs[i-1]+(i+1));
+    console.log(numbs[i - 1] + (i + 1));
 }
- // задание 11
+// задание 11
 
- const numb = [1, 2, 4, 7];
- let result=numb.map(item=>item*item);
- console.log(result);
+const numb = [1, 2, 4, 7];
+let result = numb.map(item => item * item);
+console.log(result);
+
+// задание 12
+
+let word = ['яблоко', 'на', 'ветках большой яблони растут', 'а'];
+word = word.join('');
+console.log(word);
+word = word.split(' ');
+console.log(word);
+word = word.join('');
+console.log(word);
+word = word.split(' ');
+console.log(word);
