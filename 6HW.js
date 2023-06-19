@@ -84,3 +84,15 @@ word = word.join('');
 console.log(word);
 word = word.split(' ');
 console.log(word);
+
+// задание 13
+
+const filterPositive = [-1, 0, 5, -10, 56];
+const result = filterPositive.filter(i => i > 0);
+console.log(result);
+
+
+
+const filterPositive = [-25, 25, 0, -1000, -2];
+const result = filterPositive.filter(i => i < 0);
+console.log(result);
