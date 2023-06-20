@@ -1,13 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <title>homework1</title>
 </head>
+
 <body>
-    <script src="./script.js"></script>
+    <header class="top center">
+        <h1 class="title">Добро пожаловать на мой сайт !</h1>
+        <p class="title_paragraph">
+            Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <b>поехали</b>&nbsp;и&nbsp;
+            <b>приступай</b>
+        </p>
+        <div class="top__form">
+            <button class="button">Поехали</button>
+        </div>
+    </header>
+    <section class="game center">
+        <div class="game__block">
+            <div class="game__item">
+                <a href="#" class="game__link">Игра 1</a>
+            </div>
+            <img class="game__img" src="image/game 1.png" alt="game-1">
+        </div>
+        <div class="game__block">
+            <div class="game__item">
+                <a href="#" class="game__link">Игра 2</a>
+            </div>
+            <img class="game__img" src="image/game 2.png" alt="game-2">
+        </div>
+        <div class="game__block">
+            <div class="game__item">
+                <a href="#" class="game__link">Игра 3</a>
+            </div>
+            <img class="game__img" src="image/game 3.png" alt="game-3">
+        </div>
+    </section>
+    <section class="seasons center">
+        <div class="seasons__block">
+            <h2 class="seasons__heading">Времена года!</h2>
+            <p class="seasons__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому
+                времени года он относится</p>
+            <button class="seasons__button" onclick="seasons()" >Играть</button></a>
+        </div>
+        <div class="picture">
+            <img class="picture__img" src="image/imageseasons-game.svg.png" alt="seasons-game">
+        </div>
+    </section>
+    <script src="game.js"></script>
+    
 </body>
+
 </html>
