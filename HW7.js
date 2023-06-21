@@ -49,4 +49,8 @@ console.log(currentDate);
 
 // задание 9
 
+let currentDate = new Date();
+currentDate.setDate (73);
+console.log(currentDate);
+
 
