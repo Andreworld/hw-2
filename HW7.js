@@ -34,3 +34,7 @@ const numbers = [52, 53, 49, 77, 21, 32];
 console.log(Math.min(...numbers));
 console.log(Math.max(...numbers));
 
+// задание 5
+
+Math.round(Math.random()*10);
+
