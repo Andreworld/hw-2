@@ -38,3 +38,15 @@ console.log(Math.max(...numbers));
 
 Math.round(Math.random()*10);
 
+// задание 6
+
+// задание 7
+
+// задание 8
+
+let currentDate = new Date();
+console.log(currentDate);
+
+// задание 9
+
+
