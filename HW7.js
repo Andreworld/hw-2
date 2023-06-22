@@ -36,7 +36,7 @@ console.log(Math.max(...numbers));
 
 // задание 5
 
-Math.round(Math.random()*10);
+Math.round(Math.random() * 10);
 
 // задание 6
 
@@ -50,16 +50,31 @@ console.log(currentDate);
 // задание 9
 
 let currentDate = new Date();
-currentDate.setDate (73);
+currentDate.setDate(73);
 console.log(currentDate);
 
 // задание 10
 
 const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
 const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
-"Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
-let myDate = new Date(); 
+    "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+let myDate = new Date();
 let fullDate = myDate.getDate() + " " + months[myDate.getMonth()] +
-" " + myDate.getFullYear() + " - это " + days[myDate.getDay('- это')];
-console.log(fullDate);
+    " " + myDate.getFullYear() + " - это " + days[myDate.getDay()];
+    
+    let hour = myDate.getHours(); 
+let minute = myDate.getMinutes(); 
+let second = myDate.getSeconds(); 
+if (minute < 10) { 
+	minute = "0" + minute; 
+}
+if (second < 10) { 
+	second = "0" + second; 
+}
+console.log("Дата: ",fullDate);
+console.log("Время: " + hour + ":" + minute + ":" + second);
+
+
+
+
 
