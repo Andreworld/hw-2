@@ -171,7 +171,65 @@ body {
 .seasons__block {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.Member {
+  padding-top: 287px;
+  background-image: url(image/Rectangle_6.jpg);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 65px;
+}
+.Member__heading {
+  width: 377p;
+  height: 59px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
   align-items: center;
+  color: #FFFFFF;
+}
+.Member__text {
+  width: 584px;
+  height: 64px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.Member__button {
+  width: 234.06px;
+  height: 48.6px;
+  left: 0px;
+  top: 187px;
+  background: #9C0332;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+.Member__block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
 
 .picture__img {
@@ -246,8 +304,45 @@ body {
     color: #FFFFFF;
   }
   .seasons__block {
+    height: 218px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+  }
+  .Member {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .Member__heading {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .Member__text {
+    width: 343px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .Member__block {
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=style.css.map */

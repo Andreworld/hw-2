@@ -135,7 +135,7 @@ body {
     flex-wrap: wrap;
     gap: 65px;
     
-  &__heading {
+&__heading {
     width: 377p;
     height: 59px;
     font-family: "Montserrat";
@@ -161,8 +161,7 @@ body {
     color: #FFFFFF;
   }
   
-  
-  &__button {
+ &__button {
     width: 234.06px;
     height: 48.6px;
     left: 0px;
@@ -170,24 +169,85 @@ body {
     background: #9C0332;
     border-radius: 30px;
     font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
   }
-  &__block {
+    &__block {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
   }
 }
+
+.Member {
+    padding-top: 287px;
+    background-image: url(image/Rectangle_6.jpg);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 65px;
+
+    &__heading {
+        width: 377p;
+        height: 59px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+      }
+      
+      &__text {
+        width: 584px;
+        height: 64px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+      }
+      
+     &__button {
+        width: 234.06px;
+        height: 48.6px;
+        left: 0px;
+        top: 187px;
+        background: #9C0332;
+        border-radius: 30px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+     }
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+      }
+}
   
-  
-  .picture__img {
+.picture__img {
     width: 100%;
     }
 
